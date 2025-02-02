@@ -17,5 +17,6 @@ This project is made to learn about the implementation pf stack in python. We ha
 ### Syed Farhan Hussain
 - Made print method to print the stack.
 - Made Main Function to test the implementation.
+- Implemented Peek Method.
 
 

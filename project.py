@@ -17,7 +17,11 @@ class Stack:
             self.arr[self.size] = item
         self.size+=1
 
-
+    # Implementation of pop method for Stack
+    def pop(self):
+        x = self.arr[self.size-1]
+        self.size-=1
+        return x
 
     # Implementation of print method
     def __str__(self):
@@ -29,6 +33,8 @@ def Main():
     st.push(10)
     st.push(20)
     st.push(30)
+    print(st)
+    st.pop()
     print(st)
 if __name__ == "__main__":
     Main()

@@ -27,7 +27,13 @@ class Stack:
     # Implementation of for peek for Stack
     def peek(self):
         return self.arr[self.size-1]
-    
+   
+    # Implementation of isEmpty method for stack
+    def isEmpty(self):
+        if (self.size == 0):
+            return True
+        return False
+
     # Implementation of len method for Stack
     def __len__(self):
         return size

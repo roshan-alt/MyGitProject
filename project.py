@@ -23,6 +23,10 @@ class Stack:
         x = self.arr[self.size-1]
         self.size-=1
         return x
+
+    # Implementation of for peek for Stack
+    def peek(self):
+        return self.arr[self.size-1]
     
     # Implementation of len method for Stack
     def __len__(self):

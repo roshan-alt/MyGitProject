@@ -13,7 +13,7 @@ This project is made to learn about the implementation pf stack in python. We ha
 ### Rishi Rishi
 - Implemented pop method and fix typos made by roshan.
 - Helped in README.md file.
-
+- Implemented isEmpty method for stack.
 ### Syed Farhan Hussain
 - Made print method to print the stack.
 - Made Main Function to test the implementation.

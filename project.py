@@ -5,11 +5,12 @@ Rishi: Make pop method.
 Syed: Make peek method or make print method.
 """
 class Stack:
+    # Constructors in python.
     def __init__(self):
         self.arr = []
         self.size = 0
     
-    # Implementation of push method of Stack.
+    # Implementation of push method for Stack.
     def push(self,item):
         if (self.size+1 > len(self.arr)):
             self.arr.append(item)
@@ -22,6 +23,10 @@ class Stack:
         x = self.arr[self.size-1]
         self.size-=1
         return x
+    
+    # Implementation of len method for Stack
+    def __len__(self):
+        return size
 
     # Implementation of print method
     def __str__(self):
@@ -35,6 +40,7 @@ def Main():
     st.push(30)
     print(st)
     st.pop()
+    print(len(st))
     print(st)
 if __name__ == "__main__":
     Main()
